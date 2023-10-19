@@ -1,11 +1,20 @@
 public class PlacaBase {
 
-    public String marca;
-    public String modelo;
-    public Double precio;
-    public String graficaInstalada;
-    public String audio;
-    public String zocalos;
+    private Integer id;
+    private String marca;
+    private String modelo;
+    private Double precio;
+    private String graficaInstalada;
+    private String audio;
+    private String zocalos;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getMarca() {
         return marca;
